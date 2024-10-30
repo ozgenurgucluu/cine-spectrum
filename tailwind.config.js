@@ -7,9 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        "-1": "-1px",
+        2: "2px",
+        3: "3px",
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      lineClamp: {
+        2: "2",
       },
     },
   },
